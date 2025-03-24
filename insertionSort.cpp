@@ -43,5 +43,7 @@ for (i = 1; i <= n - 1; i++)
 temp = arr[i]; // step 2
 
 j = i - 1; //step 3
+
+while (j >= 0 && arr[j] > temp)//step 4
 }
 }
