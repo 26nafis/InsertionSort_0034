@@ -16,5 +16,8 @@ if (n <= 20)
 break;
 }
 else
+{
+cout << "\nArray yang anda masukan maksimal 20 elemen.\n"; //menampilkan pesan jika data lebih dari 20
+}
 }
 }
